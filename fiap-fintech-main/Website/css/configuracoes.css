@@ -1,0 +1,40 @@
+@import url(navbar.css);
+@import url(default.css);
+
+main {
+    margin: auto;
+    padding: 4vh;
+    height: 90vh;
+}
+    
+.forms {
+    display: flex;
+    justify-content: center;
+}
+
+.email, .senha{
+    margin-top: 0.5rem;
+
+}
+
+.btn-primario{
+    background-color: var(--cor-amarela);
+    border-color: var(--cor-amarela);
+    box-shadow: 0.5rem 0.2rem 1rem #cecaca;
+    width: 25rem;
+    height: 3rem;
+}
+
+.btn-primario:hover, .btn-primary:hover {
+    background-color: var(--cor-amarela-hover);
+    border-color: var(--cor-amarela-hover);
+    color: var(--cor-branca);
+}
+
+.btn-primario, .btn-primary {
+    text-decoration: none;
+    color: var(--cor-branca);
+    font-weight: semibold;
+    background-color: var(--cor-amarela);
+    border-color: var(--cor-amarela);
+}

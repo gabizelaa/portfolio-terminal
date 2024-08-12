@@ -1,0 +1,71 @@
+@import url(default.css);
+
+.logo {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #363636;
+    font-size: 2rem;
+}
+
+.forms {
+    margin: 3rem 40%;
+
+}
+
+.btn {
+    width: 16.375rem;
+    height: 3rem;
+    color: var(--cor-branca);
+    border-radius: 4px;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.botao-entrar {
+    background-color: var(--cor-amarela);
+}
+
+.botao-entrar:hover {
+    background-color: var(--cor-amarela-hover);
+    color: var(--cor-branca);
+}
+
+.opcoes {
+    text-align: center;
+
+}
+
+.criar-conta-link {
+    color: var(--cor-laranja);
+    text-decoration: none;
+}
+
+.esqueceu-senha-link {
+    color: var(--cor-amarela);
+    text-decoration: none;
+}
+
+
+@media (max-width: 1024px) {
+    .forms {
+        margin: 3rem 25%;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .forms {
+        margin: 2rem 15%;
+
+    }
+}
+
+@media (max-width: 425px) {
+    .forms {
+        margin: 0 10%;
+
+    }
+}

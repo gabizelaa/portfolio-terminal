@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Salt, temperando Sua Vida Financeira. Controle suas finanças, já! ">
+    <meta name="keywords" content="Controle de finanças, Finanças, Controle, Startup, FIAP">
+    <meta name="author" content="Gabriela Brandão, Giovanni Cruz, Will Bartolomeu, Bruno Vicente">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/configuracoes.css">
+    <title>Salt - Configurações</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand ms-4" href="./home.html">Salt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav py-3 fs-5">
+                <a class="nav-item nav-link" href="./home.html">Resumo</a>
+                <a class="nav-item nav-link" href="./investimento.html">Investimento</a>
+                <a class="nav-item nav-link" href="./transacoes.html">Transações</a>
+                <a class="nav-item nav-link" href="./receita.html">Receita</a>
+                <a class="nav-item nav-link" href="./despesa.html">Despesa</a>
+                <a class="nav-item nav-link" href="./metas.html">Metas</a>
+                <a class="nav-item nav-link" href="./configuracoes,html">Configurações</a>
+                <a class="nav-item nav-link fw-light" href="/inicio.html">Sair</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+            <div class="forms">
+                <div>
+                    <h2 class="card-titulo mb-5">Configurações</h2>
+                    <div class="mb-3 pt-3 nome">
+                        <label for="labelNome" class="form-label nome">Nome</label>
+                        <input type="name" readonly class="form-control-plaintext" class="form-control border-2"
+                            id="inputNomeConfig" placeholder="Nome completo">
+                    </div>
+                    <div class="mb-3 pt-3 tel">
+                        <label for="labelTelefone" class="form-label telefone">Telefone</label>
+                        <input type="tel" readonly class="form-control-plaintext" class="form-control border-2"
+                            id="inputTelefoneConfig" placeholder="(xx) xxxxx-xxxx">
+                    </div>
+                    <div class="mb-3 pt-3 email">
+                        <label for="labelEmail" class="form-label email">Email</label>
+                        <input type="email" readonly class="form-control-plaintext" class="form-control border-2"
+                            id="inputEmailConfig" placeholder="nome@email.com">
+                    </div>
+                    <div class="mb-3 pt-3 senha">
+                        <label for="labelSenha" class="form-label senha">Senha</label>
+                        <input type="password" readonly class="form-control-plaintext" id="inputSenhaConfig"
+                            class="form-control border-2" placeholder="•••••••••">
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-primario mt-5 fs-5" data-toggle="modal"
+                            data-target="#editarConfigModal">
+                            Editar Configurações
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid">
+        <div class="row py-lg-2 pt-md-1 pb-md-5 px-lg-5 mx-lg-5">
+            <div class="col-lg-6 col-md-12 mb-3 mb-lg-5 gx-5">
+                <p class="my-3">Feito com muito amor e fé!</p>
+                <p>© 2024 Salt Finance.</p>
+            </div>
+
+            <div class="col-lg-6 col-md-12 mb-3 mb-lg-5">
+                <h4 class="my-3">Atendimento</h4>
+                <p>24 horas por dia, em todos os dias da semana.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="editarConfigModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Editar Configurações</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="labelItemConfig" class="form-label">Nome</label>
+                        <input type="name" class="form-control" id="editarInputItemConfig" placeholder="Editar item">
+                    </div>
+                    <div class="mb-3">
+                        <label for="labelDataInicioConfig" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="editarInputDataInicioConfig"
+                            placeholder="nome@email.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputValorConfig" class="form-label">Telefone</label>
+                        <input type="tel" class="form-control" id="editarInputValorConfig" placeholder="(xx)xxxxx-xxxx">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputValorConfig" class="form-label">Senha</label>
+                        <input type="password" class="form-control" id="editarInputSenhaConfig" placeholder="R$ 0.00">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="excluirConfig" type="button" class="btn btn-primary">Salvar
+                        mudanças</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>

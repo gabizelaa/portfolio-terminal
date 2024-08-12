@@ -1,0 +1,40 @@
+@import url(default.css);
+@import url(navbar.css);
+@import url(transacoes.css);
+
+main {
+    margin: auto;
+    padding: 4vh;
+    height: 90vh;
+}
+
+.btn-primario{
+    background-color: var(--cor-amarela);
+    border-color: var(--cor-amarela);
+    box-shadow: 0.5rem 0.2rem 1rem #cecaca;
+    width: 25rem;
+    height: 3rem;
+}
+
+.btn-primario:hover, .btn-primary:hover {
+    background-color: var(--cor-amarela-hover);
+    border-color: var(--cor-amarela-hover);
+    color: var(--cor-branca);
+}
+
+.btn-primario, .btn-primary {
+    text-decoration: none;
+    color: var(--cor-branca);
+    font-weight: semibold;
+    background-color: var(--cor-amarela);
+    border-color: var(--cor-amarela);
+}
+
+.icone-editar {
+    height: 30px;
+    width: 30px;
+}
+
+.btn-editar{
+    color: var(--cor-preta);
+}

@@ -1,0 +1,49 @@
+@import url(default.css);
+@import url(navbar.css);
+
+body{
+    background-color: var(--cor-branca);
+}
+
+main {
+    margin: auto;
+    padding: 4vh;
+    height: 130vh;
+} 
+
+.card, .list-group {
+    border-radius: 20px;
+    box-shadow: 0.5rem 0.2rem 1rem #cecaca;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.valores{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.receita{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.list-group, .card-titulo  {
+    margin: 30px 30px 30px 0px;
+}
+
+footer {
+    background: var(--cor-footer);
+    color: var(--cor-preta);
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
