@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<eclipse-userlibraries>
-  <library name="lib">
-    <archive path="C:/Users/giova/IdeaProjects/GRUPO_20/src/lib/ojdbc8.jar" />
-  </library>
-</eclipse-userlibraries>
-
