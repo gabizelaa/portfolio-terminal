@@ -77,23 +77,23 @@ function getAboutMeText() {
 
 function getPetsText() {
   return `
-  <h2>VOCÊ PEDIU! AQUI VAI A LISTA DOS MEUS PETS</h2>
+  <h2 class="text-start text-md-center">VOCÊ PEDIU! AQUI VAI A LISTA DOS MEUS PETS</h2>
       <section id="images">
         <div class="container text-center">
           <div class="row">
-            <div class="col-6">
+            <div class="col-md-3">
               <img class="image img-fluid" src="/assets/images/elsa.png" alt="foto da Elsa"/>
               <p>Elsa</p>
             </div>
-            <div class="col-6">
+            <div class="col-md-3">
               <img class="image img-fluid" src="/assets/images/lindsey.png" alt="foto da Lindsey"/>
               <p>Lindsey</p>
             </div>
-            <div class="col-6">
+            <div class="col-md-3">
               <img class="image img-fluid" src="/assets/images/pink.png" alt="foto da Pink"/>
               <p>Pink</p>
             </div>
-            <div class="col-6">
+            <div class="col-md-3">
               <img class="image img-fluid" src="/assets/images/pingo.png" alt="foto do Pingo"/>
               <p>Pingo</p>
             </div>
