@@ -164,15 +164,15 @@ function getPlaylistText() {
 
 function getHelpText() {
   return `
-      ping --------------- ヘ(^_^ヘ)<br>
-      about -------------- sobre mim<br>
-      pets --------------- meus bebês<br>
       projetos ----------- meus projetos<br>
       skills ------------- principais habilidades<br>
-      estudos ------------ formação acadêmica<br>
-      social ------------- minhas redes sociais<br>
       carreira ----------- experiência profissional<br>
+      estudos ------------ formação acadêmica<br>
+      about -------------- sobre mim<br>
+      pets --------------- meus bebês<br>
+      social ------------- minhas redes sociais<br>
       playlist ----------- um pouco do meu gosto musical<br>
+      ping --------------- ヘ(^_^ヘ)<br>
       help --------------- exibe uma lista de comandos disponíveis<br>
       clear -------------- limpa o terminal<br>
       `;
