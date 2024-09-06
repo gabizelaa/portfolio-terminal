@@ -2,7 +2,7 @@
 
 :root {
     --var-cor-primaria: rgb(152, 129, 238);
-    --var-cor-secundaria: rgb(101, 61, 245);
+    --var-cor-secundaria: rgb(82, 35, 250);
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 #logo {
     white-space: pre;
     font-family: monospace;
-    font-size: 0.5rem; 
+    font-size: 0.7rem; 
     margin: 0 auto;
     text-align: center;
     color: var(--var-cor-secundaria);

@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
 
-  <body class="">
-    <main id="terminal" class="py-5">
-      <header id="logo" class="text-center"></header>
+  <body>
+    <main id="terminal" class="py-5 container">
+      <header id="logo" class="mb-4"></header>
 
       <section class="infos pb-4">
         <div id="date-time">
@@ -30,10 +30,12 @@
         </div>
       </section>
 
-      <section id="output"></section>
+      <section id="output" class="mb-3">
+        <!-- Terminal Output -->
+      </section>
 
-      <section id="input">
-        <span>&lt;C:\Users\u&gt;</span>
+      <section id="input" class="d-flex justify-content-start">
+        <span>&lt;C:\Users\u&gt;&nbsp;</span>
         <input type="text" id="command-input" autofocus />
       </section>
     </main>
