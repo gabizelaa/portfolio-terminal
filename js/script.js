@@ -132,8 +132,8 @@ function getHabilitiesText() {
 function getStudiesText() {
   return `
       <h2>Um pouco sobre minha formação acadêmica:</h2>
-      Esta é minha primeira graduação da vida, e já estou em meu terceiro semestre em Análise e Desenvolvimento de Sistemas pela <strong>FIAP</strong><br>
-      Também ando fazendo alguns cursos e bootcamps paralelos pela <a href="alura.com.br" target="_blank">Alura</a> e <a href="dio.me" target="_blank">DIO</a>.(◠‿◠✿)<br>
+      Esta é minha primeira graduação da vida, e já estou em meu terceiro semestre em Análise e Desenvolvimento de Sistemas pela <strong><a href="https://www.fiap.com.br/" target="_blank">FIAP</a></strong><br>
+      Também ando fazendo alguns cursos e bootcamps paralelos pela <a href="https://www.alura.com.br/" target="_blank">Alura</a> e <a href="https://www.dio.me/" target="_blank">DIO</a>.(◠‿◠✿)<br>
       `;
 }
 
