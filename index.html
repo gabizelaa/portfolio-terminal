@@ -1,60 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+
     <title>gabizela</title>
 
     <!-- Favicon -->
-    <link
-      rel="icon"
-      href="/assets/images/gabizela-icon.ico"
-      type="image/icon"
-    />
+    <link rel="icon" href="/assets/images/gabizela-icon.ico" type="image/icon"/>
 
     <!-- Links CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
     <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
 
   <body>
-    <main id="terminal" class="py-5 container text-start">
-      <header id="logo" class="mb-4 text-start text-md-center"></header>
+    <main id="terminal" class="w-100 container d-flex py-4 text-start ">
+        <header id="logo" class="mb-4 text-start text-md-center"></header>
+        <section class="infos">
+          <div id="date-time">
+            <p id="time"></p>
+            <p id="date"></p>
+            <p>Gabizela Corporation. Todos os direitos reservados.</p>
+            <p>Iniciando terminal...</p>
+            <p>Digite "help" para ver a lista de comandos</p>
+          </div>
+        </section>
+      <section id="output" class="mb-3 text-md-start">
 
-      <section class="infos pb-4 my-2">
-        <div id="date-time">
-          <p id="time"></p>
-          <p id="date"></p>
-          <p>Gabizela Corporation. Todos os direitos reservados.</p>
-          <p>Iniciando terminal...</p>
-          <p>Digite "help" para ver a lista de comandos</p>
-        </div>
       </section>
 
-      <section id="output" class="mb-3 text-md-start"></section>
-
-      <section
-        id="input"
-        class="d-flex justify-content-start align-items-center"
-      >
-        <span>&lt;C:\Users\u&gt;&nbsp;</span>
+      <section id="input" class="d-flex justify-content-start align-items-center">
+        <span>&lt;C:\Users\u&gt;</span>
         <input type="text" id="command-input" autofocus />
       </section>
-    </main>
+    
 
     <!-- Scripts JS-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script type="module" src="/js/script.js"></script>
     <script type="module" src="/js/ascii.js"></script>
+  </main>
   </body>
 </html>
