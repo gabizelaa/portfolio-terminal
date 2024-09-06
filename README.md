@@ -4,7 +4,7 @@ Projeto pessoal criado com o intuito de me apresentar por meio de um terminal cl
 ## Tecnologias utilizadas 💻
 HTML, CSS, Bootstrap e Javascript
 
-### Comandos disponíveis no console:
+### Comandos disponíveis no console: 💭
 
       ping --------------- ヘ(^_^ヘ)
       about -------------- sobre mim
