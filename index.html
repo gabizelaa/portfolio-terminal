@@ -6,7 +6,11 @@
     <title>gabizela</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="/assets/images/gabizela-icon.ico" type="image/icon" />
+    <link
+      rel="icon"
+      href="/assets/images/gabizela-icon.ico"
+      type="image/icon"
+    />
 
     <!-- Links CSS -->
     <link
@@ -20,10 +24,10 @@
   </head>
 
   <body>
-    <main id="terminal" class="py-5">
-      <header id="logo" class="mb-4"></header>
+    <main id="terminal" class="py-5 container text-start">
+      <header id="logo" class="mb-4 text-start text-md-center"></header>
 
-      <section class="infos pb-4">
+      <section class="infos pb-4 my-2">
         <div id="date-time">
           <p id="time"></p>
           <p id="date"></p>
@@ -33,11 +37,12 @@
         </div>
       </section>
 
-      <section id="output" class="mb-3">
-        <!-- Terminal Output -->
-      </section>
+      <section id="output" class="mb-3 text-md-start"></section>
 
-      <section id="input" class="d-flex justify-content-start">
+      <section
+        id="input"
+        class="d-flex justify-content-start align-items-center"
+      >
         <span>&lt;C:\Users\u&gt;&nbsp;</span>
         <input type="text" id="command-input" autofocus />
       </section>
