@@ -126,14 +126,16 @@ function getHabilitiesText() {
       IDEs ---------------------------- VScode, IntelliJ, PyCharm e Figma<br>
       ferramentas de versionamento ---- Git e Github<br>
       metodologias Ágeis -------------- Scrum e Kanban<br>
+      idiomas ------------------------- inglês fluente
       `;
 }
 
 function getStudiesText() {
   return `
       <h2>Um pouco sobre minha formação acadêmica:</h2>
-      Esta é minha primeira graduação da vida, e já estou em meu terceiro semestre em Análise e Desenvolvimento de Sistemas pela <strong><a href="https://www.fiap.com.br/" target="_blank">FIAP</a></strong><br>
+      Esta é minha primeira graduação da vida, já estou em meu terceiro semestre em Análise e Desenvolvimento de Sistemas pela <strong><a href="https://www.fiap.com.br/" target="_blank">FIAP</a></strong><br>
       Também ando fazendo alguns cursos e bootcamps paralelos pela <a href="https://www.alura.com.br/" target="_blank">Alura</a> e <a href="https://www.dio.me/" target="_blank">DIO</a>.(◠‿◠✿)<br>
+      Tive aulas de inglês desde os meus 11 anos pela Yázigi, portanto, hoje em dia sou fluente no idioma.
       `;
 }
 
