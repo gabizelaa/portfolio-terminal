@@ -47,7 +47,7 @@ function clearTerminal() {
 }
 
 // Ping Pong
-var pongAudio = new Audio("./assets/pong.wav");
+var pongAudio = new Audio("./assets/sounds/pong.wav");
 
 function getPongFunction() {
   playPongAudio()
@@ -82,19 +82,19 @@ function getPetsText() {
         <div class="container text-center">
           <div class="row">
             <div class="col-6">
-              <img class="image img-fluid" src="./img/elsa.png" alt="foto da Elsa"/>
+              <img class="image img-fluid" src="/assets/images/elsa.png" alt="foto da Elsa"/>
               <p>Elsa</p>
             </div>
             <div class="col-6">
-              <img class="image img-fluid" src="./img/lindsey.png" alt="foto da Lindsey"/>
+              <img class="image img-fluid" src="/assets/images/lindsey.png" alt="foto da Lindsey"/>
               <p>Lindsey</p>
             </div>
             <div class="col-6">
-              <img class="image img-fluid" src="./img/pink.png" alt="foto da Pink"/>
+              <img class="image img-fluid" src="/assets/images/pink.png" alt="foto da Pink"/>
               <p>Pink</p>
             </div>
             <div class="col-6">
-              <img class="image img-fluid" src="./img/pingo.png" alt="foto do Pingo"/>
+              <img class="image img-fluid" src="/assets/images/pingo.png" alt="foto do Pingo"/>
               <p>Pingo</p>
             </div>
           </div>
