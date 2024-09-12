@@ -1,8 +1,17 @@
 # Gabizela's Terminal v1.0
+
+Este projeto é uma interface de terminal personalizada para exibir um portfólio de maneira interativa e estilizada. O objetivo é criar uma experiência única para apresentar habilidades, projetos e informações pessoais usando um estilo de terminal.
 Primeira versão do meu projeto pessoal criado com o intuito de me apresentar por meio de um terminal clássico.
 
+## Funcionalidades
+- Exibição interativa de um portfólio pessoal no estilo de um terminal.
+  
+- Personalização de comandos e mensagens.
+  
+- Implementação de estilo ASCII para uma aparência autêntica de terminal.
+
 ## Tecnologias utilizadas 💻
-HTML, CSS, Bootstrap e Javascript
+HTML, CSS, Bootstrap e Javascript.
 
 ### Comandos disponíveis no console: 💭
 
