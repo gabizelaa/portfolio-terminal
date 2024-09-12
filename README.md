@@ -11,7 +11,13 @@ Primeira versão do meu projeto pessoal criado com o intuito de me apresentar po
 - Implementação de estilo ASCII para uma aparência autêntica de terminal.
 
 ## Tecnologias utilizadas 💻
-HTML, CSS, Bootstrap e Javascript.
+- HTML: Estrutura da página.
+  
+- CSS: Estilização e layout responsivo.
+  
+- JavaScript: Interatividade e funcionalidades adicionais.
+  
+- Bootstrap: Framework CSS para design responsivo.
 
 ### Comandos disponíveis no console: 💭
 
