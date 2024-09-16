@@ -112,7 +112,7 @@ function getProjectsText() {
       <strong>&lt;FinTech Salt&gt;</strong> ----------------- <a href="https://github.com/gabizelaa/fiap-fintech" target="_blank">gabizelaa/fiap-fintech</a><br>
       <strong>&lt;YourAge Android&gt;</strong> -------------- <a href="https://github.com/gabizelaa/android-yourage" target="_blank">gabizelaa/android-yourage</a><br>
       <strong>&lt;Cafeteria Serenatto&gt;</strong> ---------- <a href="https://github.com/gabizelaa/serenatto" target="_blank">gabizelaa/serenatto</a><br>
-      <strong>&lt;WhatsApp Bot&gt;</strong> ---------------------- <a href="https://github.com/gabizelaa/whatsapp-bot" target="_blank">gabizelaa/whatsapp-bot</a><br>
+      <strong>&lt;WhatsApp Bot&gt;</strong> ----------------- <a href="https://github.com/gabizelaa/whatsapp-bot" target="_blank">gabizelaa/whatsapp-bot</a><br>
       `;
 }
 
