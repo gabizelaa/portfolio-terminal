@@ -11,7 +11,7 @@ document
 // Map commands to their corresponding functions
 const commandMap = {
   ping: getPongFunction,
-  about: getAboutMeText,
+  sobre: getAboutMeText,
   pets: getPetsText,
   projetos: getProjectsText,
   skills: getHabilitiesText,
@@ -69,7 +69,7 @@ function getAboutMeText() {
       > me chamo <strong>Gabriela, mas meus amigos de chamam de gabizela</strong>.<br>
       > o que mais me mantem estável é ir a academia, algo que muitos deveriam ter na rotina!<br>
       > durante minha infância, mexer com tecnologia era um hobby, porém, comecei a levar como algo mais sério depois dos <strong>15 anos</strong>.<br>
-      > meu primeiro contato com programação foi com <strong>Python</strong>, porém, acabei seguindo para o desenvolvimento web com <strong>HTML/CSS e JavaScript.</strong><br>
+      > meu primeiro contato com programação foi com <strong>Python</strong>, porém, acabei seguindo para o desenvolvimento web com <strong>React.</strong><br>
       > quando no ensino médio, eu gostava de dar aula de física e matemática aos meus colegas após o horário de aula...<br>
       
       `;
@@ -124,7 +124,7 @@ function getHabilitiesText() {
       frameworks -------------------- Maven e Spring <br>
       database ---------------------- OracleSQL, PostgreSQL, MySQL e SQLite<br>
       tools ------------------------- VScode, IntelliJ, Oracle, Figma, Git e GitHub<br>
-      idiomas ----------------------- inglês fluente<br>
+      language ---------------------- inglês fluente<br>
       `;
 }
 
@@ -166,7 +166,7 @@ function getHelpText() {
       skills ------------- principais habilidades<br>
       carreira ----------- experiência profissional<br>
       estudos ------------ formação acadêmica<br>
-      about -------------- sobre mim<br>
+      sobre -------------- sobre mim<br>
       pets --------------- meus bebês<br>
       social ------------- minhas redes sociais<br>
       playlist ----------- um pouco do meu gosto musical<br>
