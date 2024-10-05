@@ -108,9 +108,9 @@ function getProjectsText() {
   return `
       <h2>Alguns dos meus projetos:</h2><br>
       <strong>&lt;Portfolio Terminal&gt;</strong> ----------- <a href="https://github.com/gabizelaa/portfolio-terminal" target="_blank">gabizelaa/portfolio-terminal</a><br>
+      <strong>&lt;Organo&gt;</strong> ----------------------- <a href="https://github.com/gabizelaa/react-organo" target="_blank">gabizelaa/react-organo</a><br>
       <strong>&lt;Landing Page&gt;</strong> ----------------- <a href="https://github.com/gabizelaa/landing-page-fs" target="_blank">gabizelaa/landing-page-fs</a><br>
       <strong>&lt;FinTech Salt&gt;</strong> ----------------- <a href="https://github.com/gabizelaa/fiap-fintech" target="_blank">gabizelaa/fiap-fintech</a><br>
-      <strong>&lt;YourAge Android&gt;</strong> -------------- <a href="https://github.com/gabizelaa/android-yourage" target="_blank">gabizelaa/android-yourage</a><br>
       <strong>&lt;Cafeteria Serenatto&gt;</strong> ---------- <a href="https://github.com/gabizelaa/serenatto" target="_blank">gabizelaa/serenatto</a><br>
       <strong>&lt;WhatsApp Bot&gt;</strong> ----------------- <a href="https://github.com/gabizelaa/whatsapp-bot" target="_blank">gabizelaa/whatsapp-bot</a><br>
       `;
@@ -119,14 +119,12 @@ function getProjectsText() {
 function getHabilitiesText() {
   return `
       <h2>Aqui vão algumas das minhas <strong>Hard Skills</strong></h2>
-      linguagens ---------------------- Java, Python e Kotlin<br>
-      frameworks ---------------------- Maven, Spring e Jetpack Compose<br>
-      desenvolvimento Web ------------- HTML, CSS, Bootstrap e JavaScript<br>
-      banco de Dados ------------------ OracleSQL, PostgreSQL e MySQL<br>
-      IDEs ---------------------------- VScode, IntelliJ, PyCharm e Figma<br>
-      ferramentas de versionamento ---- Git e Github<br>
-      metodologias Ágeis -------------- Scrum e Kanban<br>
-      idiomas ------------------------- inglês fluente
+      backend ----------------------- Java, Python e NodeJS<br>
+      frontend ---------------------- HTML, CSS, Bootstrap, JavaScript e React<br>
+      frameworks -------------------- Maven e Spring <br>
+      database ---------------------- OracleSQL, PostgreSQL, MySQL e SQLite<br>
+      tools ------------------------- VScode, IntelliJ, Oracle, Figma, Git e GitHub<br>
+      idiomas ----------------------- inglês fluente<br>
       `;
 }
 
@@ -134,8 +132,8 @@ function getStudiesText() {
   return `
       <h2>Um pouco sobre minha formação acadêmica:</h2>
       Esta é minha primeira graduação da vida, já estou em meu terceiro semestre em Análise e Desenvolvimento de Sistemas pela <strong><a href="https://www.fiap.com.br/" target="_blank">FIAP</a></strong><br>
-      Também ando fazendo alguns cursos e bootcamps paralelos pela <a href="https://www.alura.com.br/" target="_blank">Alura</a> e <a href="https://www.dio.me/" target="_blank">DIO</a>.(◠‿◠✿)<br>
-      Tive aulas de inglês desde os meus 11 anos pela Yázigi, portanto, hoje em dia sou fluente no idioma.
+      Também, andei fazendo alguns cursos e bootcamps paralelos pela <a href="https://www.alura.com.br/" target="_blank">Alura</a> e <a href="https://www.dio.me/" target="_blank">DIO</a>.(◠‿◠✿)<br>
+      Tive aulas de inglês desde os meus 11 anos, pela Yázigi, portanto, após manter um aprendizado contínuo na internet, hoje em dia sou fluente no idioma.
       `;
 }
 
@@ -151,7 +149,7 @@ function getSocialsText() {
 function getCareerText() {
   return `<h2>Sobre minha carreira:<br></h2>
       Atualmente, estou em busca de uma vaga de estágio para desenvolver minhas habilidades e avançar profissionalmente.<br>
-      Esta é a minha primeira chance de ter uma experiência no mercado de trabalho <3
+      Esta é a minha primeira chance de ter uma experiência no mercado de trabalho e estou animada para me aprofundar na área da tecnologia!<3
       `;
 }
 
