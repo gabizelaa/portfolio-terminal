@@ -69,9 +69,8 @@ function getAboutMeText() {
       > me chamo <strong>Gabriela, mas meus amigos de chamam de gabizela</strong>.<br>
       > o que mais me mantem estável é ir a academia, algo que muitos deveriam ter na rotina!<br>
       > durante minha infância, mexer com tecnologia era um hobby, porém, comecei a levar como algo mais sério depois dos <strong>15 anos</strong>.<br>
-      > meu primeiro contato com programação foi com <strong>Python</strong>, porém, acabei seguindo para o desenvolvimento web com <strong>React.</strong><br>
+      > aprendi lógica de programação um pouco com <strong>Python</strong> e muuuito com <strong>Java</strong>, porém, agora estou interessada em me aprofundar em desenvolvimento web com <strong>React.</strong><br>
       > quando no ensino médio, eu gostava de dar aula de física e matemática aos meus colegas após o horário de aula...<br>
-      
       `;
 }
 
