@@ -64,17 +64,12 @@ function playPongAudio() {
 // Functions
 function getAboutMeText() {
   return `
-      <h2>Alguns tópicos sobre mim!</h2>
-      > tenho <strong>19 anos</strong> e sou uma sagitariana de 2004.<br>
-      <hr>
-      > me chamo <strong>Gabriela, mas meus amigos de chamam de gabizela</strong>.<br>
-      <hr>
-      > o que mais me mantem estável é ir a academia, algo que muitos deveriam ter na rotina!<br>
-      <hr>
-      > durante minha infância, mexer com tecnologia era um hobby, porém, comecei a levar como algo mais sério depois dos <strong>15 anos</strong>.<br>
-      <hr>
-      > aprendi lógica de programação um pouco com <strong>Python</strong> e muuuito com <strong>Java</strong>, porém, agora estou interessada em me aprofundar em desenvolvimento web com <strong>React.</strong><br>
-      <hr>
+      <h2>Alguns tópicos sobre mim!</h2><hr>
+      > tenho <strong>19 anos</strong> e sou uma sagitariana de 2004.<br><hr>
+      > me chamo <strong>Gabriela, mas meus amigos de chamam de gabizela</strong>.<br><hr>
+      > o que mais me mantem estável é ir a academia, algo que muitos deveriam ter na rotina!<br><hr>
+      > durante minha infância, mexer com tecnologia era um hobby, porém, comecei a levar como algo mais sério depois dos <strong>15 anos</strong>.<br><hr>
+      > aprendi lógica de programação um pouco com <strong>Python</strong> e muuuito com <strong>Java</strong>, porém, agora estou interessada em me aprofundar em desenvolvimento web com <strong>React.</strong><br><hr>
       > quando no ensino médio, eu gostava de dar aula de física e matemática aos meus colegas após o horário de aula...<br>
       `;
 }
