@@ -20,6 +20,12 @@ const commandMap = {
   playlist: getPlaylistText,
   help: getHelpText,
   clear: clearTerminal,
+
+  // PT-BR Commands
+  sobre: getAboutMeText,
+  projetos: getProjectsText,
+  estudos: getStudiesText,
+  careira: getCareerText,
 };
 
 function handleCommand(input) {
