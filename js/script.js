@@ -179,7 +179,7 @@ class TerminalApp {
       studies: () => this.getStudiesText(),
       social: () => this.getSocialsText(),
       career: () => this.getCareerText(),
-      playlist: () => this.getPlaylistText(),
+      music: () => this.getPlaylistText(),
       help: () => this.getHelpText(),
       clear: () => this.clearTerminal(),
       theme: () => this.toggleTheme(),
